@@ -16,7 +16,7 @@
     header{background:linear-gradient(180deg,#6f1720 0%, #5a1216 100%);color:var(--gold);padding:28px 16px}
     .container{max-width:1100px;margin:0 auto;padding:18px}
     .brand{display:flex;align-items:center;gap:14px}
-    .brand img{height:84px;width:84px;object-fit:contain;border-radius:8px;background:#fff;padding:6px}
+    .logo{height:84px;width:84px;display:flex;align-items:center;justify-content:center;font-size:48px;font-weight:900;color:#6f1720;background:linear-gradient(135deg,#fceabb 0%, #f8b500 50%, #d9a441 100%);border-radius:12px;border:3px solid #d9b24b;box-shadow:0 4px 10px rgba(0,0,0,0.15);}{height:84px;width:84px;object-fit:contain;border-radius:8px;background:#fff;padding:6px}
     h1{margin:0;font-size:clamp(22px,4.5vw,36px);letter-spacing:0.6px}
     p.lead{margin:8px 0 0;color:#f5e4b8}
     nav{margin-top:12px}
@@ -46,7 +46,25 @@
     .social a{display:inline-block;padding:8px;border-radius:8px;text-decoration:none;background:#fff}
 
     /* Mobile tweaks */
-    @media (max-width:800px){.brand img{height:64px;width:64px}.brand{gap:10px}}
+    @media (max-width:900px){
+      .brand{flex-direction:column;text-align:center}
+      nav a{margin:6px;display:inline-block}
+      .hero{grid-template-columns:1fr}
+      .call{margin-top:14px}
+    }
+    @media (max-width:700px){
+      .gallery img{width:100%;height:180px}
+      h1{font-size:28px}
+      h2{font-size:22px}
+      .container{padding:12px}
+      .card{padding:12px}
+      .grid{grid-template-columns:1fr}
+    }
+    @media (max-width:480px){
+      .brand img{height:54px;width:54px}
+      .cta{padding:8px 12px;font-size:14px}
+      form input, form textarea{font-size:14px}
+    }.brand{gap:10px}}
   </style>
   <!-- Structured data for SEO -->
   <script type="application/ld+json">
@@ -67,7 +85,7 @@
     <div class="container">
       <div class="brand">
         <!-- Logo file (local path provided) -->
-        <img alt="Pelli Melam logo" src='/mnt/data/A_logo_for_"Pelli_Melam,"_a_traditional_music_serv.png'>
+        <div class="logo">P</div>
         <div>
           <h1>Pelli Melam</h1>
           <p class="lead">మీ శుభానికి సంప్రదాయ మంగళ స్వరాలు — Nadaswaram & Traditional Music Services</p>
@@ -150,12 +168,12 @@
     <section id="gallery">
       <h2>గ్యాలరీ</h2>
       <div class="gallery">
-        <img alt="Pelli Melam Nadaswaram 1" src="https://images.unsplash.com/photo-1605431046495-bdfab4525e23">
-        <img alt="Traditional Wedding Music 2" src="https://images.unsplash.com/photo-1591604466107-ec97dfb0a54b">
-        <img alt="South Indian Wedding Ritual 3" src="https://images.unsplash.com/photo-1604908177225-b6e8e64c3b59">
-        <img alt="Temple Music Ceremony 4" src="https://images.unsplash.com/photo-1580136579312-94651e6f1c41">
-        <img alt="Carnatic Musicians 5" src="https://images.unsplash.com/photo-1616401784845-fd3a0292e90c">
-        <img alt="Indian Traditional Instruments 6" src="https://images.unsplash.com/photo-1549885591-3d8a5a5f2a79">
+        <img alt="Pelli Melam Photo 1" src="images/1.jpg">
+        <img alt="Pelli Melam Photo 2" src="images/2.jpg">
+        <img alt="Pelli Melam Photo 3" src="images/3.jpg">
+        <img alt="Pelli Melam Photo 4" src="images/4.jpg">
+        <img alt="Pelli Melam Photo 5" src="images/5.jpg">
+        <img alt="Pelli Melam Photo 6" src="images/6.jpg">
       </div>
       <p class="small">నిజ జీవిత ఫోటోలు కోసం మీ ఇన్స్టాగ్రామ్/వాట్స్ఆప్ నుండి సేకరించండి — గ్యాలరీ యాక్యుప్ చేయడానికి మేము మీ ఫొటోలను కూడా జత చేస్తాము.</p>
     </section>
