@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="te">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pelli Melam — Traditional Music Services (Nadaswaram)</title>
+  <meta name="description" content="Pelli Melam: నాదస్వరం ఆధ్వర్యంలో సంప్రదాయ మంగళ సంగీత సేవలు. వివాహాలు, పూజలు, గృహప్రవేశాలు, దేవాలయ కార్యక్రమాలు — Hyderabad, Telangana & Andhra Pradesh.">
+  <meta name="keywords" content="Pelli Melam, Nadaswaram, Traditional Music, Telugu Wedding Music, Mangali, Nayi Brahmin">
+  <meta name="author" content="Pelli Melam">
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    /* Simple, responsive, elegant CSS tailored for Pelli Melam */
+    :root{--maroon:#6f1720;--gold:#d9b24b;--bg:#fff;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family: 'Noto Sans', Arial, sans-serif;margin:0;color:#222;background:var(--bg);line-height:1.5}
+    header{background:linear-gradient(180deg,#6f1720 0%, #5a1216 100%);color:var(--gold);padding:28px 16px}
+    .container{max-width:1100px;margin:0 auto;padding:18px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{height:84px;width:84px;object-fit:contain;border-radius:8px;background:#fff;padding:6px}
+    h1{margin:0;font-size:clamp(22px,4.5vw,36px);letter-spacing:0.6px}
+    p.lead{margin:8px 0 0;color:#f5e4b8}
+    nav{margin-top:12px}
+    nav a{color:var(--gold);text-decoration:none;margin-right:12px;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;padding:28px 0}
+    .hero .call{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(16,16,16,.08)}
+    .cta{display:inline-block;background:var(--gold);color:#2b1414;padding:10px 16px;border-radius:8px;font-weight:700;text-decoration:none}
+
+    section{padding:28px 0;border-bottom:1px solid #f0e8e0}
+    h2{color:var(--maroon);margin:0 0 8px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(16,16,16,.04)}
+    ul.services{list-style-type:none;padding:0;margin:0}
+    ul.services li{padding:6px 0;border-bottom:1px dashed #eee;color:var(--muted)}
+
+    .gallery{display:flex;gap:10px;flex-wrap:wrap}
+    .gallery img{width:calc(33.333% - 8px);height:160px;object-fit:cover;border-radius:8px}
+    @media (max-width:700px){.gallery img{width:calc(50% - 8px);height:140px}}
+
+    form input,form textarea,form select{width:100%;padding:10px;border-radius:8px;border:1px solid #ddd;margin-bottom:10px}
+    .btn{background:var(--maroon);color:var(--gold);padding:10px 14px;border-radius:8px;font-weight:700;border:none;cursor:pointer}
+
+    footer{background:#faf5f1;padding:20px 0;color:#333}
+    .small{font-size:13px;color:var(--muted)}
+    .flex{display:flex;gap:12px;align-items:center}
+    .social a{display:inline-block;padding:8px;border-radius:8px;text-decoration:none;background:#fff}
+
+    /* Mobile tweaks */
+    @media (max-width:800px){.brand img{height:64px;width:64px}.brand{gap:10px}}
+  </style>
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Pelli Melam",
+    "description": "Traditional Nadaswaram & Mangali music services for weddings, temple events and auspicious ceremonies in Telangana & Andhra Pradesh.",
+    "url": "https://your-domain.com",
+    "member": [{"@type":"Person","name":"Pelli Melam Team"}],
+    "areaServed": ["Telangana","Andhra Pradesh"],
+    "telephone": "+91 9440246101"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <!-- Logo file (local path provided) -->
+        <img alt="Pelli Melam logo" src='/mnt/data/A_logo_for_"Pelli_Melam,"_a_traditional_music_serv.png'>
+        <div>
+          <h1>Pelli Melam</h1>
+          <p class="lead">మీ శుభానికి సంప్రదాయ మంగళ స్వరాలు — Nadaswaram & Traditional Music Services</p>
+          <nav>
+            <a href="#about">మా గురించి</a>
+            <a href="#services">సేవలు</a>
+            <a href="#packages">ప్యాకేజీలు</a>
+            <a href="#gallery">గ్యాలరీ</a>
+            <a href="#contact">సంప్రదించండి</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <h2>పెళ్లి ప్రవేశం, పూజలు, గృహప్రవేశం — సంప్రదాయ సంగీతంతో</h2>
+        <p>పెళ్లి మేళం అనేది మన సంస్కృతి యొక్క మధుర భాగం. Pelli Melam ద్వారా మీ శుభకార్యానికి మంగళాన్ని కల్పించే నాదస్వర స్వరాలు, అనుభవజ్ఞులైన కళాకారులు మరియు ప్రొఫెషనల్ శ్రద్ధ మీకు అందుబాటులో ఉన్నాయి.</p>
+        <p style="margin-top:10px"><a class="cta" href="https://wa.me/919440246101?text=I%20want%20to%20book%20Pelli%20Melam">WhatsApp ద్వారా బుక్ చేయండి</a></p>
+      </div>
+      <div class="call">
+        <strong>బుక్ చేయడానికి కాల్ చేయండి</strong>
+        <p style="margin:6px 0">ఫోన్ / WhatsApp: <a href="tel:+919440246101">+91 9440246101</a></p>
+        <p class="small">ఆఫీస్ సమయం: 9AM – 8PM</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>మా గురించి</h2>
+      <p>Pelli Melam అనేది కుటుంబపరంపరగా తరతరాలుగా నాదస్వర మంగళ వాయిద్యాన్ని కొనసాగిస్తూ మీకు సంప్రదాయ సంగీత సేవలను అందిస్తుంది. మేము సమయపాలన, శిక్షణతో కూడిన శ్రద్ధ మరియు ఆధ్యాత్మిక భావంతో ప్రతి వేడుకను ప్రత్యేకంగా చేస్తాము.</p>
+    </section>
+
+    <section id="services">
+      <h2>సేవలు</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>నాదస్వరం (Nadaswaram)</h3>
+          <p class="small">వివాహ ప్రవేశం, మంగళ కార్యక్రమాలు మరియు పూజల కోసం ప్రత్యేకంగా.</p>
+        </div>
+        <div class="card">
+          <h3>మంగళ సంగీత ప్యాప్</h3>
+          <p class="small">గ్రహప్రవేశం, వ్రతాలు, ఇతర శుభకార్యాల కోసం మంగళ స్వరాల సెట్టింగ్.</p>
+        </div>
+        <div class="card">
+          <h3>దేవాలయ కార్యక్రమాలు</h3>
+          <p class="small">దేవాలయ వార్షికోత్సవాలు, ప్రత్యేక పూజా కార్యక్రమాల కోసం సంప్రదాయ శ్రేయస్సు.</p>
+        </div>
+        <div class="card">
+          <h3>కస్టమ్ ప్యాకేజీలు</h3>
+          <p class="small">మీ బడ్జెట్ & అవసరాల మేరకు చిన్న/పెద్ద బృందాల ఏర్పాట్లు.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages">
+      <h2>ప్యాకేజీలు & ధరల సారాంశం</h2>
+      <p class="small">(దయచేసి గమనించండి: ఈ ధరలు సూచనాత్మకంగా ఇవ్వబడ్డాయి. ఖచ్చా కొట్ కోసం సంప్రదించండి.)</p>
+      <div class="grid">
+        <div class="card">
+          <h3>సాధారణ ప్యాక్</h3>
+          <p>లొకల్ చిన్న ఈవెంట్స్ — ₹4,000 – ₹7,000</p>
+        </div>
+        <div class="card">
+          <h3>మధ్యస్థ ప్యాక్</h3>
+          <p>దేవాలయం / గృహప్రవేశం — ₹7,000 – ₹15,000</p>
+        </div>
+        <div class="card">
+          <h3>వివాహం ప్యాక్ (స్ట్యాండర్డ్)</h3>
+          <p>వివాహ సేవల కోసం — ₹12,000 – ₹25,000</p>
+        </div>
+        <div class="card">
+          <h3>విశేష ప్యాక్</h3>
+          <p>గ్రాండ్ వివాహాలు లేదా కార్పొరేట్ ఈవెంట్స్ — ₹25,000+</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>గ్యాలరీ</h2>
+      <div class="gallery">
+        <img alt="Pelli Melam Nadaswaram 1" src="https://images.unsplash.com/photo-1605431046495-bdfab4525e23">
+        <img alt="Traditional Wedding Music 2" src="https://images.unsplash.com/photo-1591604466107-ec97dfb0a54b">
+        <img alt="South Indian Wedding Ritual 3" src="https://images.unsplash.com/photo-1604908177225-b6e8e64c3b59">
+        <img alt="Temple Music Ceremony 4" src="https://images.unsplash.com/photo-1580136579312-94651e6f1c41">
+        <img alt="Carnatic Musicians 5" src="https://images.unsplash.com/photo-1616401784845-fd3a0292e90c">
+        <img alt="Indian Traditional Instruments 6" src="https://images.unsplash.com/photo-1549885591-3d8a5a5f2a79">
+      </div>
+      <p class="small">నిజ జీవిత ఫోటోలు కోసం మీ ఇన్స్టాగ్రామ్/వాట్స్ఆప్ నుండి సేకరించండి — గ్యాలరీ యాక్యుప్ చేయడానికి మేము మీ ఫొటోలను కూడా జత చేస్తాము.</p>
+    </section>
+
+    <section id="testimonials">
+      <h2>కస్టమర్ మాటలు</h2>
+      <div class="grid">
+        <div class="card">
+          <p>“Pelli Melam మా పెళ్లిని ఒక ఆధ్యాత్మిక అనుభవంగా మార్చారు — అందరికి చాలా నచ్చింది.”</p>
+          <p class="small">— సాయి కుమార్, Hyderabad</p>
+        </div>
+        <div class="card">
+          <p>“సమయానికి వచ్చారు, కార్యం చాలా శుభంగా జరిగింది.”</p>
+          <p class="small">— లక్ష్మి, Vijayawada</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>సంప్రదించండి / బుక్ చేయండి</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>ఫోన్ / WhatsApp</h3>
+          <p><a href="tel:+919440246101">+91 9440246101</a>  (WhatsApp ద్వారా వెంటనే బుక్ చేయడానికి: <a href="https://wa.me/919440246101?text=Hello%20Pelli%20Melam,%20I%20want%20to%20book">Send WhatsApp</a>)</p>
+
+          <h3>ఇమెయిల్</h3>
+          <p><a href="mailto:pellimelam01@gmail.com">pellimelam01@gmail.com</a></p>
+
+          <h3>సమయం</h3>
+          <p class="small">9:00 AM – 8:00 PM (రోజంతా అందుబాటులో)</p>
+        </div>
+        <div class="card">
+          <h3>మెమో/బుకింగ్ ఫారమ్</h3>
+          <!-- Note: For GitHub Pages (static), you can use Formspree / Netlify Forms or set action to mailto: -->
+          <form id="bookingForm" onsubmit="handleSubmit(event)">
+            <input required name="name" placeholder="పేరు" />
+            <input required name="phone" placeholder="ఫోన్ (Whatsapp)" />
+            <input name="email" placeholder="ఇమెయిల్ (ఐచ్చికం)" />
+            <input required name="date" type="date" />
+            <input name="venue" placeholder="వేదిక/చేతన స్థలం" />
+            <textarea name="message" rows="4" placeholder="వ్యాఖ్య / ప్రత్యేక సూచనలు"></textarea>
+            <button class="btn" type="submit">బుక్ చేయండి</button>
+          </form>
+          <p class="small">(ఫారమ్ పంపిన తర్వాత మేము 24-48 గంటల్లో మీకు కాల్ చేస్తాము)</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="flex" style="justify-content:space-between;align-items:flex-start;flex-wrap:wrap">
+        <div>
+          <strong>Pelli Melam</strong>
+          <p class="small">Traditional Music Services • Hyderabad, Telangana</p>
+          <p class="small">Phone: <a href="tel:+919440246101">+91 9440246101</a></p>
+        </div>
+        <div class="small">
+          <p>Follow us on:</p>
+          <div class="social">
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:14px">© <span id="year"></span> Pelli Melam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Small JS: booking form handler (client-side only)
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function handleSubmit(e){
+      e.preventDefault();
+      const f = e.target;
+      const data = {
+        name: f.name.value,
+        phone: f.phone.value,
+        email: f.email.value,
+        date: f.date.value,
+        venue: f.venue.value,
+        message: f.message.value
+      };
+      // For a static GitHub Pages site, you can replace this with Formspree or Netlify Forms.
+      // For now we create a 'mailto' link to open the user's email client (works on most devices with mail app):
+      const subject = encodeURIComponent('Pelli Melam Booking: ' + data.name + ' // ' + data.date);
+      const body = encodeURIComponent(JSON.stringify(data, null, 2));
+      window.location.href = `mailto:pellimelam01@gmail.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body>
+</html>
